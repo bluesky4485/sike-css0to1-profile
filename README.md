@@ -7,7 +7,7 @@ If you want a live-edit experience, install [BrowserSync](http://www.browsersync
 To install BrowserSync:
 
 ```
-npm install browser-sync@2.7.1
+npm install -g browser-sync
 ```
 
 To run the live-edit web server:
