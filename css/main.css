@@ -133,3 +133,49 @@ ul.whatido__skill-list {
     background-position: center top;
     float: left;
 }
+
+.education-experience {
+    padding-top: 120px;
+}
+
+.education-experience__list {
+    overflow: hidden;
+    list-style: none;
+}
+
+.education-experience__list li img {
+    float: left;
+    width: 180px;
+    margin-right: 40px;
+}
+
+.education-experience__content {
+    overflow: hidden;
+}
+
+.education-experience__description {
+    overflow: hidden
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.photos__list {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.photos__list li {
+    float: left;
+    width: 25%;
+}
+
+.photos__list li img {
+    width: 100%;
+    padding: 10px;
+}
