@@ -1,46 +1,51 @@
 body {
-	background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-    font-family: 'Open Sans','helvetica',arial,sans-serif;
+    background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Open Sans', 'helvetica', arial, sans-serif;
     font-weight: 300;
     color: #62686f;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #333;
     font-weight: 300;
 }
 
 .container {
-	width: 960px;
-	margin: 100px auto 500px auto;	
+    width: 960px;
+    margin: 100px auto 500px auto;
 }
 
 .main-header {
-	padding: 1px;
-	background-image: url(../img/banner.jpg);
+    padding: 1px;
+    background-image: url(../img/banner.jpg);
 }
 
 .main-header h1 {
-	margin: 5px auto;
-	margin-bottom: 20px;
-	text-align: center;
-	font-weight: 300;
-	font-size: 50px;
-	font-family: 'Open Sans','helvetica',arial,sans-serif;
-	text-shadow: 0 1px rgba(0,0,0,0.3);
+    margin: 5px auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Open Sans', 'helvetica', arial, sans-serif;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 }
 
 .main-header__avatar {
-	display: block;
-	margin: 0 auto;
-	margin-top: -70px;
-	margin-bottom: 10px;
-	border: 3px solid white;
-	border-radius: 999px;
-	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+    display: block;
+    margin: 0 auto;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    border: 3px solid white;
+    border-radius: 999px;
+    box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 ul.inline-items li {
@@ -161,8 +166,10 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 .photos__list {
@@ -178,4 +185,58 @@ html {
 .photos__list li img {
     width: 100%;
     padding: 10px;
+}
+
+.get-in-touch {
+    padding-top: 100px;
+}
+
+.get-in-touch__list {
+    list-style: none;
+    overflow: hidden;
+}
+
+ul.get-in-touch__list li {
+    padding-top: 20px;
+    width: 25%;
+    float: left;
+    text-align: center
+}
+
+.contact form {
+    margin: 0 auto;
+    width: 40%;
+}
+
+.contact__container {
+    position: relative;
+    width: 100%;
+}
+
+.contact_lable {
+    position: absolute;
+    text-align: right;
+    left: -105%;
+    margin-top: 7px;
+    width: 100%;
+}
+
+.contact input,
+.contact textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px
+}
+
+.contact button {
+    border: none;
+    border-radius: 9999px;
+    background: #ffd524;
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    box-shadow: 0 3px 0 #daae1d;
+    width: 100%;
 }
